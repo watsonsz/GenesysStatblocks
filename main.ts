@@ -6,15 +6,7 @@ import { VIEW_TYPE, StatView } from 'objects/StatView';
 import {mount, unmount} from 'svelte'
 // Remember to rename these classes and interfaces!
 
-interface MyPluginSettings {
-	mySetting: string;
-}
-
-const DEFAULT_SETTINGS: MyPluginSettings = {
-	mySetting: 'default'
-}
-
-export default class MyPlugin extends Plugin {
+export default class GenesysStatBlock extends Plugin {
 	settings: MyPluginSettings;
 
 	async onload() {
