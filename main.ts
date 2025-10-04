@@ -7,8 +7,6 @@ import {mount, unmount} from 'svelte'
 // Remember to rename these classes and interfaces!
 
 export default class GenesysStatBlock extends Plugin {
-	settings: MyPluginSettings;
-
 	async onload() {
 		this.registerMarkdownCodeBlockProcessor("genesys", (source, el, ctx) => {
       let parsed: GenesysNPC;
