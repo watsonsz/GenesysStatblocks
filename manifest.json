@@ -1,7 +1,7 @@
 {
 	"id": "genesys_statblocks",
 	"name": "Genesys Statblocks",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Generates stat-blocks for NPCs and Characters for the Genesys TTRPG game system.",
 	"author": "Seriphai",
